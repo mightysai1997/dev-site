@@ -226,48 +226,6 @@ pre[class*='language-'] {
   color: #898e98 !important;
 }
 
-.token.tab::before {
-  content: '\279D' !important;
-}
-
-.token.tab:not(:empty)::before,
-.token.cr::before,
-.token.crlf::before,
-.token.lf::before,
-.token.space::before {
-  color: #58577e !important;
-  opacity: 1 !important;
-}
-
-.token.cr::before,
-.token.crlf::before,
-.token.lf::before {
-  display: none;
-}
-
-.token.indent {
-  border-left: 1px solid #58577e;
-  margin-left: 4px;
-  padding-left: 4px;
-}
-
-.token.indent:blank {
-  display: none;
-}
-
-.token.indent .token.space:nth-of-type(2n),
-.token.indent .token.tab {
-  border-right: 1px solid #58577e;
-  margin-right: 4px;
-  padding-right: 4px;
-}
-
-.token.indent .token.space:last-of-type,
-.token.indent .token.tab:last-of-type {
-  border-right: 0;
-  margin-right: 0;
-}
-
 .line-highlight {
   background: rgba(255, 255, 255, 0.05) !important;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0)) !important;
